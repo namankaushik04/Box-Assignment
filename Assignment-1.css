@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#ECF1F5;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    max-width: 950px;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 75px 75px; */
+    /* margin-left: 125px;
+    margin-right: 125px; */
+    margin-bottom: 26px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    position: relative;
+    /* left: 50px; */
+    /* margin-right: 250px; */
+    /* right: 150px;
+    left: 150px; */
+    /* padding-left: 46px;
+    padding-right: 46px; */
+    margin: auto;
+}
+#topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-top: 36px;
+    height: 75px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+#logo{
+    height: 150px;
+    width: 200px;
+    
+}
+#menu-items{
+    color: rgb(124, 120, 120);
+    padding: 16px 16px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+#hamburger-icon{
+    display: none;
+}
+.signin{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+.landing-section{
+    margin-top: 28px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#new-features{
+    width: 25%;
+    font-size: 12px;
+    background-color: rgb(236, 148, 225);
+    border-radius: 18px;
+    text-align: center;
+    height: 4vh;
+    color: rgb(5, 5, 192);
+    padding-top: 8px;
+    
+    
+}
+.left-section{
+    margin-left: 16px;
+    padding-left: 46px;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.left-section h1{
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.left-section p{
+    font-size: 16px;
+    color: rgb(71, 70, 70);
+}
+.get-started{
+    background-color: rgb(117, 117, 243);
+    width: 29%;
+    height: 5vh;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    border-radius: 24px;
+    padding-top: 10px;
+}
+.landing-image{
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    height: 80%;
+    margin-top: -46px;
+    justify-content: space-between;
+}
+#left-bottom{
+    /* box-sizing: border-box; */
+    margin-top: 54px;
+    display: flex;
+    /* margin-left: 16px; */
+    line-height: 0%;
+    justify-content: space-around;
+    width: 25%;
+    margin-left: 46px;
+    margin-top: -110px;
+    padding-bottom: 24px;
+}
+#arrow-box-1{
+    width: 38px;
+    height: 38px;
+    background-color: #6A7BFF;
+    color:white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#arrow-box-2{
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.arrow-section{
+    display: flex;
+    /* padding: 16px 16px; */
+    margin-left: 46px;
+    margin-top: -12px;
+}
+.workspace-vol{
+    margin-left: 46px;
+}
+@media(max-width:600px){
+    main{
+        height: 1450px;
+        margin-left: 24px;
+    }
+    #logo{
+        margin-left: -36px;
+    }
+    #nav-btn{
+        display: none;
+    }
+    .signin{
+        display: none;
+    }
+    #hamburger-icon{
+        display: block;
+    }
+    .left-section{
+        width: 60%;
+        text-align: left;
+        margin-left: 56px;
+        /* position: relative; */
+        box-sizing: border-box;
+
+    }
+    .right-section{
+        width: 100%;
+        align-items: center;
+    }
+    #new-features{
+        /* align-items: center; */
+        width: 72%;
+    }
+    .landing-image{
+        align-items: center;
+        margin-top: 16px
+    }
+    .get-started{
+        width: 82%;
+    }
+    .landing-section{
+        display: block;
+    }
+    #left-bottom{
+        width: 100%;
+        display: block;
+        padding-top: 16px;
+        margin-top: 32px;
+    }
+    .workspace-vol{
+        padding-top: 26px;
+        margin-left: 44px;
+        box-sizing: border-box;
+
+    }
+
+}
